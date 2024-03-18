@@ -1,0 +1,58 @@
+
+.tagsBackGround{
+    padding:0;
+    margin:0;
+    background-color: rgb(27, 27, 27);
+    width:100vw;
+    height: 4rem;
+}
+.tags{
+    margin-left: 10rem;
+    display:flex;
+    overflow:hidden;
+    width:75%;
+    position:fixed;
+    top:0;
+    margin-right:10rem;
+}
+
+@media only screen and (max-width: 950px) {
+    .tags {
+      gap:2rem;  
+      width:70%;  
+      padding-left: 2rem;
+      margin-left: 2rem;
+      margin-right: 2rem; /* Adjust margin for smaller devices */
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .tags {
+      gap:2rem; 
+      width:60%;  
+      padding-left: 2rem;
+      margin-left: 2rem;
+      margin-right: 2rem; /* Adjust margin for smaller devices */
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .tags {
+      gap:2rem;
+      padding-left: 2rem;  
+      width:50%; 
+      margin-left: 2rem; 
+      margin-right: 2rem; /* Further adjust margin for even smaller devices */
+    }
+    
+  }
+  @media only screen and (max-width: 400px) {
+    .tags {
+      gap:2rem;
+      padding-left: 2rem;
+      width:35%; 
+      margin-left: 2rem; 
+      margin-right: 2rem; /* Further adjust margin for even smaller devices */
+    }
+    
+  }

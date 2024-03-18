@@ -1,0 +1,24 @@
+.search{
+    margin-top:1rem;
+    position:absolute;
+    right:0;
+    width:10rem;
+}
+.More{
+    color:white;
+    margin-top:-0.5rem;
+    margin-right:25rem;
+}
+
+@media only screen and (max-width: 1290px) {
+    .search {
+      display:none;
+    }
+  }
+
+@media only screen and (max-width: 1290px) {
+    .More {
+      margin-right: 2rem;
+    }
+}
+
